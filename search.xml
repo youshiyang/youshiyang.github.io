@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>二进制，八进制，十进制，十六进制的相互转换</title>
+      <link href="/2021/10/20/2021-10-20/"/>
+      <url>/2021/10/20/2021-10-20/</url>
+      
+        <content type="html"><![CDATA[<h1 id="二进制，八进制，十进制，十六进制的相互转换"><a href="#二进制，八进制，十进制，十六进制的相互转换" class="headerlink" title="二进制，八进制，十进制，十六进制的相互转换"></a>二进制，八进制，十进制，十六进制的相互转换</h1><h2 id="数字系统的由来"><a href="#数字系统的由来" class="headerlink" title="数字系统的由来"></a>数字系统的由来</h2><p>远古时期：结绳记事、手指数数</p><p>非位置化数字系统：罗马数字 ⅠⅡ Ⅲ Ⅳ Ⅴ Ⅵ Ⅶ Ⅷ Ⅸ Ⅹ</p><p>位置化数字系统: 二进制|八进制|十进制|十六进制</p><p><img src="https://img-blog.csdnimg.cn/1e2c1138f3094cd78061162c4cb5b77e.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/555b39b8613f4952a2d711d150d3fe97.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p><h2 id="十进制转二进制"><a href="#十进制转二进制" class="headerlink" title="十进制转二进制"></a>十进制转二进制</h2><p><img src="https://img-blog.csdnimg.cn/f4701706427f4d4b97cd5d83d5f2be9e.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p><h2 id="十进制转八进制"><a href="#十进制转八进制" class="headerlink" title="十进制转八进制"></a>十进制转八进制</h2><p><img src="https://img-blog.csdnimg.cn/73b777c3b4d0449cb706b42229505e46.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p><h2 id="十进制转十六进制"><a href="#十进制转十六进制" class="headerlink" title="十进制转十六进制"></a>十进制转十六进制</h2><p><img src="https://img-blog.csdnimg.cn/363b98843d604d30a04d0764cae57b79.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p><h2 id="二进制-八进制-十六进制相互转换"><a href="#二进制-八进制-十六进制相互转换" class="headerlink" title="二进制|八进制|十六进制相互转换"></a>二进制|八进制|十六进制相互转换</h2><p><img src="https://img-blog.csdnimg.cn/170bc52187a54003933a7028e74db982.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBAbTBfNjIwNzI1MzA=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建博客的心得</title>
       <link href="/2021/09/22/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E5%BE%97/"/>
       <url>/2021/09/22/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E5%BE%97/</url>
