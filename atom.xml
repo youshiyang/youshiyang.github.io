@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>灰鸟博客</title>
+  <icon>http://example.com/icon.png</icon>
+  <subtitle>是灰鸟先生啦</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-09-22T04:27:06.441Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Heulsuse</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建博客的心得</title>
+    <link href="http://example.com/2021/09/22/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E5%BE%97/"/>
+    <id>http://example.com/2021/09/22/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%BF%83%E5%BE%97/</id>
+    <published>2021-09-21T16:00:00.000Z</published>
+    <updated>2021-09-22T04:27:06.441Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;搭建博客的心得&quot;&gt;&lt;a href=&quot;#搭建博客的心得&quot; class=&quot;headerlink&quot; title=&quot;搭建博客的心得&quot;&gt;&lt;/a&gt;搭建博客的心得&lt;/h1&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>代码演示</title>
+    <link href="http://example.com/2021/09/21/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/"/>
+    <id>http://example.com/2021/09/21/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%BC%94%E7%A4%BA/%E6%BC%94%E7%A4%BA/</id>
+    <published>2021-09-21T02:22:00.000Z</published>
+    <updated>2021-09-21T02:29:16.972Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/09/18/hello-world/"/>
+    <id>http://example.com/2021/09/18/hello-world/</id>
+    <published>2021-09-18T06:42:42.329Z</published>
+    <updated>2021-09-18T06:42:42.330Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
