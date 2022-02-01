@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>C语言程序中的缓冲区溢出漏洞</title>
+      <link href="/2022/02/01/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E/"/>
+      <url>/2022/02/01/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%9A%84%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E/</url>
+      
+        <content type="html"><![CDATA[<p>一、常见的C语言中的存在漏洞的函数**</p><p>Stropy函数的函数漏洞是对变量不进行边界校验。如果被赋值的对象的长度小于所赋值的长度，被赋值的对象的缓冲区就溢出了。如下图中的栈结构，如果将长度为16字节的字符串赋给acArrBuf数组，那么EBP和返回值都会被覆盖。</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" alt="img"></p><p><strong>二、举例说明</strong></p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png" alt="img"></p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png" alt="img"></p><p>正常来说，在输入正常密码之前循环会一直进行下去，如下：</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png" alt="img"></p><p>而输入正确的密码，就结束循环，如下：</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png" alt="img">但是，由于缓冲区溢出的漏洞，当输入12位数时，你会惊讶的发现居然登录成功了。</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png" alt="img"></p><p>这是用TDM-GCC 64bit编译器编译后的结果，当我换成TDM-GCC 32bit编译器后输入8位数就能够成功登录。</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png" alt="img"></p><p><strong>三、分析产生原因</strong></p><p>在64位的编译器中char<em>类型指针的长度占八个字节，而在32位的编译器中char</em>类型指针的长度占四个字节。在64位中buffer只申请八个单位的空间，多出的四个8将从栈顶向栈底压从而覆盖了auth(char类型占四个字节)的返回值；32位同理。</p><p><strong>四、避免或防范措施</strong></p><p>如果没有特殊的需求，可以去掉源串传入目的串的步骤。一定要传入的话可以改用strncpy函数：</p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png" alt="img"></p><p><img src="file:///C:/Users/YOUSHI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png" alt="img"></p><p>这样利用strncpy函数只截取了前7位数，阻止了溢出。</p><p>最后，有意识的去使用更安全的库函数。除了用strncpy代替strcpy；还有类似用strncat代替strcat；用snprintf代替sprintf等用法。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>二进制，八进制，十进制，十六进制的相互转换</title>
       <link href="/2021/10/20/2021-10-20/"/>
       <url>/2021/10/20/2021-10-20/</url>
